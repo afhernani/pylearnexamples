@@ -19,5 +19,5 @@ args = parser.parse_args()
 h = hashlib.new(args.hash_name)
 h.update(args.data.encode('utf-8'))
 print(h.hexdigest())
-
-#python3 hashlib_new.py sha1
+#llamada con condiciones.
+#python hashlib_new.py (sha1 /sha256 / sha512 / md5)
